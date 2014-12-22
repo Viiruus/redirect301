@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^redirect301.herokuapp.com
+RewriteRule ^(.*) http://viiruus.github.io/slate [P]
